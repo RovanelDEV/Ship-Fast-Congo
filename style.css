@@ -33,4 +33,12 @@ body::-webkit-scrollbar {
 
 .header ul {
    list-style: none;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.header ul li:last-child {
+   margin-right: 10px;
 }
