@@ -37,8 +37,8 @@ body::-webkit-scrollbar {
    align-items: center;
    flex-direction: row;
    justify-content: space-between;
+   word-spacing: 10px;
 }
 
 .header ul li:last-child {
-   margin-right: 10px;
 }
